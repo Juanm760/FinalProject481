@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "Prism.Core/7.0.0.396": {
         "type": "package",
         "compile": {
@@ -50,6 +59,17 @@
           "lib/netstandard2.0/Unity.Abstractions.dll": {},
           "lib/netstandard2.0/Unity.Container.dll": {},
           "lib/netstandard2.0/Unity.ServiceLocation.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
         }
       },
       "Xamarin.Forms/2.5.0.280555": {
@@ -175,12 +195,27 @@
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
+      "Yelp.Api/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Yelp.Api.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Yelp.Api.dll": {}
+        }
+      },
       "TravelingApp481/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
           "Prism.Unity.Forms": "7.0.0.396",
-          "Xamarin.Forms": "2.5.0.280555"
+          "Xam.Plugin.Connectivity": "3.1.1",
+          "Xamarin.Forms": "2.5.0.280555",
+          "Yelp.Api": "1.3.0"
         },
         "compile": {
           "bin/placeholder/TravelingApp481.dll": {}
@@ -191,6 +226,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "Prism.Core/7.0.0.396": {
         "type": "package",
         "compile": {
@@ -239,6 +283,17 @@
           "lib/netstandard2.0/Unity.Abstractions.dll": {},
           "lib/netstandard2.0/Unity.Container.dll": {},
           "lib/netstandard2.0/Unity.ServiceLocation.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
         }
       },
       "Xamarin.Forms/2.5.0.280555": {
@@ -364,12 +419,27 @@
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
+      "Yelp.Api/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Yelp.Api.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Yelp.Api.dll": {}
+        }
+      },
       "TravelingApp481/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
           "Prism.Unity.Forms": "7.0.0.396",
-          "Xamarin.Forms": "2.5.0.280555"
+          "Xam.Plugin.Connectivity": "3.1.1",
+          "Xamarin.Forms": "2.5.0.280555",
+          "Yelp.Api": "1.3.0"
         },
         "compile": {
           "bin/placeholder/TravelingApp481.dll": {}
@@ -380,6 +450,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "Prism.Core/7.0.0.396": {
         "type": "package",
         "compile": {
@@ -428,6 +507,17 @@
           "lib/netstandard2.0/Unity.Abstractions.dll": {},
           "lib/netstandard2.0/Unity.Container.dll": {},
           "lib/netstandard2.0/Unity.ServiceLocation.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
         }
       },
       "Xamarin.Forms/2.5.0.280555": {
@@ -553,12 +643,27 @@
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
+      "Yelp.Api/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Yelp.Api.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Yelp.Api.dll": {}
+        }
+      },
       "TravelingApp481/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
           "Prism.Unity.Forms": "7.0.0.396",
-          "Xamarin.Forms": "2.5.0.280555"
+          "Xam.Plugin.Connectivity": "3.1.1",
+          "Xamarin.Forms": "2.5.0.280555",
+          "Yelp.Api": "1.3.0"
         },
         "compile": {
           "bin/placeholder/TravelingApp481.dll": {}
@@ -569,6 +674,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "Prism.Core/7.0.0.396": {
         "type": "package",
         "compile": {
@@ -617,6 +731,17 @@
           "lib/netstandard2.0/Unity.Abstractions.dll": {},
           "lib/netstandard2.0/Unity.Container.dll": {},
           "lib/netstandard2.0/Unity.ServiceLocation.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
         }
       },
       "Xamarin.Forms/2.5.0.280555": {
@@ -742,12 +867,27 @@
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
+      "Yelp.Api/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Yelp.Api.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Yelp.Api.dll": {}
+        }
+      },
       "TravelingApp481/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
           "Prism.Unity.Forms": "7.0.0.396",
-          "Xamarin.Forms": "2.5.0.280555"
+          "Xam.Plugin.Connectivity": "3.1.1",
+          "Xamarin.Forms": "2.5.0.280555",
+          "Yelp.Api": "1.3.0"
         },
         "compile": {
           "bin/placeholder/TravelingApp481.dll": {}
@@ -759,6 +899,34 @@
     }
   },
   "libraries": {
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
     "Prism.Core/7.0.0.396": {
       "sha512": "XxPmXiA+v/D6zUeAUwSz7GgWNIbzyLLgkP32vDr6fGfv/YPg8CRkmkf+MkP+cxXKdUsqezxXgRRwMUcjWRqWMw==",
       "type": "package",
@@ -888,6 +1056,72 @@
         "lib/netstandard2.0/Unity.ServiceLocation.pdb",
         "unity.5.5.5.nupkg.sha512",
         "unity.nuspec"
+      ]
+    },
+    "Xam.Plugin.Connectivity/3.1.1": {
+      "sha512": "X92JJFbVT8TRVaikzqjonP766jU1xeP6UgvDwu+aWA6Ll00Zjz0S/WevmzzxuPREbsYt//DdLWocy3lbbaJHPA==",
+      "type": "package",
+      "path": "xam.plugin.connectivity/3.1.1",
+      "files": [
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Connectivity.dll",
+        "lib/MonoAndroid10/Plugin.Connectivity.dll.mdb",
+        "lib/MonoAndroid10/Plugin.Connectivity.pdb",
+        "lib/MonoAndroid10/Plugin.Connectivity.xml",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.dll",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.xml",
+        "lib/UAP10/Plugin.Connectivity.XML",
+        "lib/UAP10/Plugin.Connectivity.dll",
+        "lib/UAP10/Plugin.Connectivity.pdb",
+        "lib/UAP10/Plugin.Connectivity.pri",
+        "lib/UAP10/Plugin.Connectivity/Properties/Plugin.Connectivity.rd.xml",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.Abstractions.pdb",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.Abstractions.xml",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.dll",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.pdb",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.xml",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.dll",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.pdb",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.xml",
+        "lib/XamarinTVOS/Plugin.Connectivity.Abstractions.dll",
+        "lib/XamarinTVOS/Plugin.Connectivity.Abstractions.pdb",
+        "lib/XamarinTVOS/Plugin.Connectivity.Abstractions.xml",
+        "lib/XamarinTVOS/Plugin.Connectivity.dll",
+        "lib/XamarinTVOS/Plugin.Connectivity.pdb",
+        "lib/XamarinTVOS/Plugin.Connectivity.xml",
+        "lib/net45/Plugin.Connectivity.Abstractions.dll",
+        "lib/net45/Plugin.Connectivity.Abstractions.pdb",
+        "lib/net45/Plugin.Connectivity.Abstractions.xml",
+        "lib/net45/Plugin.Connectivity.XML",
+        "lib/net45/Plugin.Connectivity.dll",
+        "lib/net45/Plugin.Connectivity.pdb",
+        "lib/netcoreapp2.0/Plugin.Connectivity.Abstractions.dll",
+        "lib/netcoreapp2.0/Plugin.Connectivity.Abstractions.pdb",
+        "lib/netcoreapp2.0/Plugin.Connectivity.Abstractions.xml",
+        "lib/netcoreapp2.0/Plugin.Connectivity.deps.json",
+        "lib/netcoreapp2.0/Plugin.Connectivity.dll",
+        "lib/netcoreapp2.0/Plugin.Connectivity.xml",
+        "lib/netstandard1.0/Plugin.Connectivity.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Connectivity.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Connectivity.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Connectivity.deps.json",
+        "lib/netstandard1.0/Plugin.Connectivity.dll",
+        "lib/netstandard1.0/Plugin.Connectivity.pdb",
+        "lib/netstandard1.0/Plugin.Connectivity.xml",
+        "lib/tizen40/Plugin.Connectivity.Abstractions.dll",
+        "lib/tizen40/Plugin.Connectivity.Abstractions.pdb",
+        "lib/tizen40/Plugin.Connectivity.Abstractions.xml",
+        "lib/tizen40/Plugin.Connectivity.deps.json",
+        "lib/tizen40/Plugin.Connectivity.dll",
+        "xam.plugin.connectivity.3.1.1.nupkg.sha512",
+        "xam.plugin.connectivity.nuspec"
       ]
     },
     "Xamarin.Forms/2.5.0.280555": {
@@ -1072,6 +1306,16 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Yelp.Api/1.3.0": {
+      "sha512": "fY/JaPYW2nJmagFtpC4Zt1Yg0PUiNl5vnQCZPV1bu858jPE1N/FJI1SDnAs5CGFIfspZttm/qkfaqrETjklOnw==",
+      "type": "package",
+      "path": "yelp.api/1.3.0",
+      "files": [
+        "lib/portable45-net45+win8+wpa81/Yelp.Api.dll",
+        "yelp.api.1.3.0.nupkg.sha512",
+        "yelp.api.nuspec"
+      ]
+    },
     "TravelingApp481/1.0.0": {
       "type": "project",
       "path": "../TravelingApp481/TravelingApp481.csproj",
@@ -1080,9 +1324,12 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "Newtonsoft.Json >= 11.0.2",
       "Prism.Unity.Forms >= 7.0.0.396",
       "TravelingApp481 >= 1.0.0",
-      "Xamarin.Forms >= 2.5.0.280555"
+      "Xam.Plugin.Connectivity >= 3.1.1",
+      "Xamarin.Forms >= 2.5.0.280555",
+      "Yelp.Api >= 1.3.0"
     ]
   },
   "packageFolders": {
@@ -1127,13 +1374,25 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[11.0.2, )"
+          },
           "Prism.Unity.Forms": {
             "target": "Package",
             "version": "[7.0.0.396, )"
           },
+          "Xam.Plugin.Connectivity": {
+            "target": "Package",
+            "version": "[3.1.1, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[2.5.0.280555, )"
+          },
+          "Yelp.Api": {
+            "target": "Package",
+            "version": "[1.3.0, )"
           }
         }
       }

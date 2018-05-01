@@ -22,6 +22,7 @@ C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\bin\Debug\CommonServiceLocator.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\bin\Debug\Mono.Android.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\bin\Debug\mscorlib.pdb
+C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\bin\Debug\Plugin.Connectivity.Abstractions.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\bin\Debug\System.Core.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\bin\Debug\System.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\bin\Debug\System.Xml.pdb
@@ -44,6 +45,7 @@ C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\CommonServiceLocator.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\Mono.Android.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\mscorlib.pdb
+C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\Plugin.Connectivity.Abstractions.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\System.Core.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\System.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\System.Xml.pdb
@@ -65,16 +67,19 @@ C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\System.ServiceModel.Internals.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\System.Web.Services.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\bin\Debug\Plugin.Connectivity.dll.mdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\TravelingApp481.Android.dll.mdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
+C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\Plugin.Connectivity.dll.mdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\bin\Debug\TravelingApp481.Android.dll.mdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\android\assets\Plugin.Connectivity.dll.mdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\android\assets\TravelingApp481.Android.dll.mdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
@@ -84,6 +89,7 @@ C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\android\assets\Mono.Data.Tds.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\android\assets\Mono.Security.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\android\assets\mscorlib.pdb
+C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\android\assets\Plugin.Connectivity.Abstractions.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\android\assets\System.ComponentModel.Composition.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\android\assets\System.Core.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\android\assets\System.Data.pdb
@@ -103,8 +109,10 @@ C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\android\assets\Unity.Container.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\android\assets\Unity.ServiceLocation.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\bin\Debug\TravelingApp481.Android.dll
+C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\TravelingApp481.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\TravelingApp481.Android.dll.mdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
+C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\Plugin.Connectivity.dll.mdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481.Android\obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb

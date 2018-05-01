@@ -109,6 +109,9 @@ class MonoPackageManager_Resources {
 		"TravelingApp481.Android.dll",
 		"CommonServiceLocator.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
+		"Plugin.Connectivity.Abstractions.dll",
+		"Plugin.Connectivity.dll",
 		"Prism.dll",
 		"Prism.Forms.dll",
 		"Prism.Unity.Forms.dll",
@@ -136,6 +139,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"Yelp.Api.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

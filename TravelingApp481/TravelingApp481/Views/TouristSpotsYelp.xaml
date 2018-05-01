@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:prismBehaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    ios:Page.UseSafeArea="true"
+    x:Class="TravelingApp481.Views.TouristSpotsYelp"
+    Title="{Binding Title}">
+    <ContentPage.Content>
+        <ListView 
+            IsRefreshing="{Binding IsRefreshing}"
+            IsPullToRefreshEnabled="true"
+            RefreshCommand="{Binding BreedListRefreshCommand}"
+            ItemsSource="{Binding Locations}">
+          
+            ItemsSource="{Binding Locations}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Label Text="{Binding .}" />
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <ListView.Behaviors>
+                <prismBehaviors:EventToCommandBehavior
+                    EventName="ItemTapped"
+                    Command="{Binding BreedTappedCommand}"
+                    EventArgsParameterPath="Item" />
+            </ListView.Behaviors>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

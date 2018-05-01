@@ -1,10 +1,12 @@
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481\bin\Debug\netstandard2.0\TravelingApp481.deps.json
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481\bin\Debug\netstandard2.0\TravelingApp481.dll
-C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481\bin\Debug\netstandard2.0\TravelingApp481.pdb
+C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481\obj\Debug\netstandard2.0\TravelingApp481.csprojResolveAssemblyReference.cache
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481\obj\Debug\netstandard2.0\TravelingApp481.csproj.CoreCompileInputs.cache
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481\obj\Debug\netstandard2.0\TravelingApp481.App.xaml.g.cs
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481\obj\Debug\netstandard2.0\TravelingApp481.Views.MainPage.xaml.g.cs
+C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481\obj\Debug\netstandard2.0\TravelingApp481.Views.TouristSpotsYelp.xaml.g.cs
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481\obj\Debug\netstandard2.0\TravelingApp481.AssemblyInfoInputs.cache
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481\obj\Debug\netstandard2.0\TravelingApp481.AssemblyInfo.cs
+C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481\bin\Debug\netstandard2.0\TravelingApp481.pdb
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481\obj\Debug\netstandard2.0\TravelingApp481.dll
 C:\Users\madri\Documents\Mobile\TravelingApp481\TravelingApp481\TravelingApp481\obj\Debug\netstandard2.0\TravelingApp481.pdb

@@ -5,9 +5,22 @@
              x:Class="TravelingApp481.Views.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label
+                Text="Welcome to the travel app! Let us find the top travel destinations for your city!"
+                FontSize="Medium"
+                TextColor="BlueViolet"
+                BackgroundColor="AntiqueWhite"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <SearchBar Text="{Binding Search}" Placeholder="city name,state" SearchCommand="{Binding SearchCommand}" >
+                <SearchBar.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double"
+                            iOS="-1.0"
+                            Android="75.0"
+                            WinPhone="-1">
+                    </OnPlatform>
+                </SearchBar.HeightRequest>
+            </SearchBar>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

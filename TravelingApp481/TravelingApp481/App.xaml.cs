@@ -33,7 +33,10 @@ namespace TravelingApp481
         {
             Debug.WriteLine($"**** {this.GetType().Name}.{nameof(RegisterTypes)}");
 
-            containerRegistry.RegisterForNavigation<MainPage, TravelingApp481PageViewModel>();
+            containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
+            containerRegistry.RegisterForNavigation<TouristSpotsYelp, TouristSpotsPageViewModel>();
+            
+           
         }
             
 
