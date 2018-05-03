@@ -11,8 +11,7 @@
 namespace TravelingApp481.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\madri\\Documents\\Mobile\\TravelingApp481\\TravelingApp481\\TravelingApp481\\V" +
-        "iews\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\FinalProject481\\TravelingApp481\\TravelingApp481\\Views\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

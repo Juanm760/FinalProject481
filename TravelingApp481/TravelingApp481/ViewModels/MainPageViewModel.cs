@@ -44,7 +44,7 @@ namespace TravelingApp481.ViewModels
         private async void OnSearch()
         {
             Debug.WriteLine($"**** {this.GetType().Name}.{nameof(OnSearch)}");
-            await _navigationService.NavigateAsync("TouristSpotsYelp");
+            await _navigationService.NavigateAsync("TravelAppContainerPage");
         }
     }
 }

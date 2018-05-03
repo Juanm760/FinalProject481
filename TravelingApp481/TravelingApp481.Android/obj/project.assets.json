@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "MonoAndroid,Version=v7.1": {
+    "MonoAndroid,Version=v8.0": {
       "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "compile": {
@@ -1013,7 +1013,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "MonoAndroid,Version=v7.1": [
+    "MonoAndroid,Version=v8.0": [
       "Newtonsoft.Json >= 11.0.2",
       "Prism.Unity.Forms >= 7.0.0.396",
       "TravelingApp481 >= 1.0.0",
@@ -1028,46 +1028,46 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\madri\\.nuget\\packages\\": {},
+    "C:\\Users\\llaca\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\madri\\Documents\\Mobile\\TravelingApp481\\TravelingApp481\\TravelingApp481.Android\\TravelingApp481.Android.csproj",
+      "projectUniqueName": "C:\\FinalProject481\\TravelingApp481\\TravelingApp481.Android\\TravelingApp481.Android.csproj",
       "projectName": "TravelingApp481.Android",
-      "projectPath": "C:\\Users\\madri\\Documents\\Mobile\\TravelingApp481\\TravelingApp481\\TravelingApp481.Android\\TravelingApp481.Android.csproj",
-      "packagesPath": "C:\\Users\\madri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\madri\\Documents\\Mobile\\TravelingApp481\\TravelingApp481\\TravelingApp481.Android\\obj\\",
+      "projectPath": "C:\\FinalProject481\\TravelingApp481\\TravelingApp481.Android\\TravelingApp481.Android.csproj",
+      "packagesPath": "C:\\Users\\llaca\\.nuget\\packages\\",
+      "outputPath": "C:\\FinalProject481\\TravelingApp481\\TravelingApp481.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\madri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\llaca\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
-        "monoandroid71"
+        "monoandroid80"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "monoandroid71": {
+        "monoandroid80": {
           "projectReferences": {
-            "C:\\Users\\madri\\Documents\\Mobile\\TravelingApp481\\TravelingApp481\\TravelingApp481\\TravelingApp481.csproj": {
-              "projectPath": "C:\\Users\\madri\\Documents\\Mobile\\TravelingApp481\\TravelingApp481\\TravelingApp481\\TravelingApp481.csproj"
+            "C:\\FinalProject481\\TravelingApp481\\TravelingApp481\\TravelingApp481.csproj": {
+              "projectPath": "C:\\FinalProject481\\TravelingApp481\\TravelingApp481\\TravelingApp481.csproj"
             }
           }
         }
       }
     },
     "frameworks": {
-      "monoandroid71": {
+      "monoandroid80": {
         "dependencies": {
           "Newtonsoft.Json": {
             "target": "Package",

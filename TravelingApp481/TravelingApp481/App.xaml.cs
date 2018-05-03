@@ -32,11 +32,13 @@ namespace TravelingApp481
         protected override void RegisterTypes(Prism.Ioc.IContainerRegistry containerRegistry)
         {
             Debug.WriteLine($"**** {this.GetType().Name}.{nameof(RegisterTypes)}");
-
+            containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<TouristSpotsYelp, TouristSpotsPageViewModel>();
-            
-           
+            containerRegistry.RegisterForNavigation<Page1, Page1ViewModel>();
+            containerRegistry.RegisterForNavigation<TravelAppContainerPage, TravelAppCointerViewModel>();
+
+
         }
             
 
