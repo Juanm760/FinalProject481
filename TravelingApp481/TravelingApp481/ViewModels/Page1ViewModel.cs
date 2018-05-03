@@ -29,7 +29,15 @@ namespace TravelingApp481.ViewModels
         }
         public Page1ViewModel()
         {
-            Debug.WriteLine($)
+            Debug.WriteLine($"**** {this.GetType().Name}.{nameof(Page1ViewModel)}:  ctor");
+            Title = "Page1";
+            IsActiveChanged += OnIsActiveChanged;
+        }
+
+        private void OnIsActiveChanged(object sender, EventArgs e)
+        {
+            Debug.WriteLine($"****{this.GetType().Name}.{nameof(OnIsActiveChanged)}: {IsActive}");
         }
     }
+
 }
