@@ -111,6 +111,10 @@
     <BundleResource Include="Resources\Icon-Small%402x.png" />
     <BundleResource Include="Resources\Icon-Small%403x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <BundleResource Include="Resources\shop-7.png" />
+    <BundleResource Include="Resources\airplane-symbol-7.png" />
+    <BundleResource Include="Resources\earth_PNG40.png" />
+    <BundleResource Include="Resources\earth_PNG37.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -136,7 +140,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\TravelingApp481\TravelingApp481.csproj">
-      <Project>{FECA2498-8FC8-43A4-9E77-CE9E1809D06B}</Project>
+      <Project>{54B866B4-285A-4CAD-BDCB-41C3B3C4F4F6}</Project>
       <Name>TravelingApp481</Name>
     </ProjectReference>
   </ItemGroup>

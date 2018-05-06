@@ -1338,11 +1338,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/denisemunoz/Desktop/finals/TravelingApp481/TravelingApp481.iOS/TravelingApp481.iOS.csproj",
+      "projectUniqueName": "/Users/denisemunoz/Desktop/Final481/TravelingApp481/TravelingApp481.iOS/TravelingApp481.iOS.csproj",
       "projectName": "TravelingApp481.iOS",
-      "projectPath": "/Users/denisemunoz/Desktop/finals/TravelingApp481/TravelingApp481.iOS/TravelingApp481.iOS.csproj",
+      "projectPath": "/Users/denisemunoz/Desktop/Final481/TravelingApp481/TravelingApp481.iOS/TravelingApp481.iOS.csproj",
       "packagesPath": "/Users/denisemunoz/.nuget/packages/",
-      "outputPath": "/Users/denisemunoz/Desktop/finals/TravelingApp481/TravelingApp481.iOS/obj",
+      "outputPath": "/Users/denisemunoz/Desktop/Final481/TravelingApp481/TravelingApp481.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/denisemunoz/.config/NuGet/NuGet.Config"
@@ -1356,8 +1356,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/denisemunoz/Desktop/finals/TravelingApp481/TravelingApp481/TravelingApp481.csproj": {
-              "projectPath": "/Users/denisemunoz/Desktop/finals/TravelingApp481/TravelingApp481/TravelingApp481.csproj"
+            "/Users/denisemunoz/Desktop/Final481/TravelingApp481/TravelingApp481/TravelingApp481.csproj": {
+              "projectPath": "/Users/denisemunoz/Desktop/Final481/TravelingApp481/TravelingApp481/TravelingApp481.csproj"
             }
           }
         }

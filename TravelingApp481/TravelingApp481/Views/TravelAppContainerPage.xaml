@@ -5,8 +5,12 @@
     xmlns:views="clr-namespace:TravelingApp481.Views"
     x:Class="TravelingApp481.Views.TravelAppContainerPage">
   <!--Pages can be added as references or inline-->
-  <views:TouristSpotsYelp/>
-    <views:Page1/>
+  <views:TouristSpotsYelp
+    Title="Popular Destinations"
+        Icon="airplane-symbol-7.png"/>
+    <views:Page1
+    Title="Page1"
+        Icon="shop-7.png"/>
     
 
 </TabbedPage>

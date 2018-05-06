@@ -1033,11 +1033,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/denisemunoz/Desktop/finals/TravelingApp481/TravelingApp481.Android/TravelingApp481.Android.csproj",
+      "projectUniqueName": "/Users/denisemunoz/Desktop/Final481/TravelingApp481/TravelingApp481.Android/TravelingApp481.Android.csproj",
       "projectName": "TravelingApp481.Android",
-      "projectPath": "/Users/denisemunoz/Desktop/finals/TravelingApp481/TravelingApp481.Android/TravelingApp481.Android.csproj",
+      "projectPath": "/Users/denisemunoz/Desktop/Final481/TravelingApp481/TravelingApp481.Android/TravelingApp481.Android.csproj",
       "packagesPath": "/Users/denisemunoz/.nuget/packages/",
-      "outputPath": "/Users/denisemunoz/Desktop/finals/TravelingApp481/TravelingApp481.Android/obj",
+      "outputPath": "/Users/denisemunoz/Desktop/Final481/TravelingApp481/TravelingApp481.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/denisemunoz/.config/NuGet/NuGet.Config"
@@ -1051,8 +1051,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/denisemunoz/Desktop/finals/TravelingApp481/TravelingApp481/TravelingApp481.csproj": {
-              "projectPath": "/Users/denisemunoz/Desktop/finals/TravelingApp481/TravelingApp481/TravelingApp481.csproj"
+            "/Users/denisemunoz/Desktop/Final481/TravelingApp481/TravelingApp481/TravelingApp481.csproj": {
+              "projectPath": "/Users/denisemunoz/Desktop/Final481/TravelingApp481/TravelingApp481/TravelingApp481.csproj"
             }
           }
         }

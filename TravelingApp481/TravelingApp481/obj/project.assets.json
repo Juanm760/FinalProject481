@@ -707,11 +707,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/denisemunoz/Desktop/finals/TravelingApp481/TravelingApp481/TravelingApp481.csproj",
+      "projectUniqueName": "/Users/denisemunoz/Desktop/Final481/TravelingApp481/TravelingApp481/TravelingApp481.csproj",
       "projectName": "TravelingApp481",
-      "projectPath": "/Users/denisemunoz/Desktop/finals/TravelingApp481/TravelingApp481/TravelingApp481.csproj",
+      "projectPath": "/Users/denisemunoz/Desktop/Final481/TravelingApp481/TravelingApp481/TravelingApp481.csproj",
       "packagesPath": "/Users/denisemunoz/.nuget/packages/",
-      "outputPath": "/Users/denisemunoz/Desktop/finals/TravelingApp481/TravelingApp481/obj",
+      "outputPath": "/Users/denisemunoz/Desktop/Final481/TravelingApp481/TravelingApp481/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

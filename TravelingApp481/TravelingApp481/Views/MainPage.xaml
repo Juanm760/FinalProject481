@@ -1,18 +1,51 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MainPage"
              x:Class="TravelingApp481.Views.MainPage">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout
+            Spacing="1"
+            BackgroundColor="White">
             <Label
-                Text="Welcome to the travel app! Let us find the top travel destinations for your city!"
-                FontSize="Medium"
-                TextColor="BlueViolet"
-                BackgroundColor="AntiqueWhite"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <SearchBar Text="{Binding Search}" Placeholder="city name,state" SearchCommand="{Binding SearchCommand}" >
+                Text="TravelApp"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                FontSize="80"
+                FontAttributes="Italic"
+                TextColor="Black"
+                Margin="0,50,0,0">
+                <Label.FontSize>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <OnPlatform.iOS>80</OnPlatform.iOS>
+                        <OnPlatform.Android>75</OnPlatform.Android>
+                    </OnPlatform>
+                </Label.FontSize>
+                <Label.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <OnPlatform.iOS>Druk</OnPlatform.iOS>
+                        <OnPlatform.Android>Druk-Heavy-Web.ttf#Druk Heavy Web</OnPlatform.Android>
+                    </OnPlatform>
+                </Label.FontFamily>
+            </Label>
+
+
+            <Label
+                Text="FIND YOUR DESTINATION"
+                FontSize="16"
+                TextColor="Black"
+                HorizontalOptions="Center"
+                Margin="-110,-15,0,0">
+                <Label.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <OnPlatform.iOS>DINCondensed-Bold</OnPlatform.iOS>
+                        <OnPlatform.Android>DIN-Condensed-Bold.ttf#DIN Condensed Bold</OnPlatform.Android>
+                    </OnPlatform>
+                </Label.FontFamily>
+            </Label>
+               <Image VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" Source="earth_PNG37.png" />
+
+            <SearchBar  VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand"  Text="{Binding Search}" BackgroundColor="White" Placeholder="city name,state" SearchCommand="{Binding SearchCommand}" >
                 <SearchBar.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double"
                             iOS="-1.0"
@@ -21,6 +54,7 @@
                     </OnPlatform>
                 </SearchBar.HeightRequest>
             </SearchBar>
+                
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
