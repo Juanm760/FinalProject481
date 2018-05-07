@@ -27,6 +27,8 @@ namespace TravelingApp481.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
+            XFGloss.iOS.Library.Init();
+
             return base.FinishedLaunching(app, options);
         }
         public class iOSIntitializer : IPlatformInitializer

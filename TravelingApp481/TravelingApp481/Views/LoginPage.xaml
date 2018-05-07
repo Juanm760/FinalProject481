@@ -3,10 +3,24 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:TravelingApp481" 
+    xmlns:xfg="clr-namespace:XFGloss;assembly=XFGloss"
     xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
     ios:Page.UseSafeArea="true"
     x:Class="TravelingApp481.Views.LoginPage"
     Title="{Binding Title}">
+    <xfg:ContentPageGloss.BackgroundGradient>
+        <xfg:Gradient Rotation="150">
+
+            <xfg:GradientStep StepColor="Blue" StepPercentage=".3">
+                
+                
+            </xfg:GradientStep>
+            <xfg:GradientStep StepColor="Beige" StepPercentage=".2"/>
+            
+
+        </xfg:Gradient>
+        
+    </xfg:ContentPageGloss.BackgroundGradient>
     <StackLayout
         VerticalOptions="StartAndExpand">
         <Label 

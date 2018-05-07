@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "99cc087f2d25bc292320121a08f0c64e14ba8381"
+    "signature": "7d9389fbe0f64ce0bf07c796d27c251ed5a4817f"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "TravelingApp481/1.0.0": {
         "dependencies": {
+          "Ansuria.XFGloss": "1.1.3",
           "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "11.0.2",
           "Prism.Unity.Forms": "7.0.0.396",
@@ -18,6 +19,14 @@
         },
         "runtime": {
           "TravelingApp481.dll": {}
+        }
+      },
+      "Ansuria.XFGloss/1.1.3": {
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.280555"
+        },
+        "runtime": {
+          "lib/netstandard2.0/XFGloss.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -93,6 +102,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Ansuria.XFGloss/1.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qvds3Cpr+2raZocNZE3aMMtcMyv7Uua5weIFXuFLXsxUOqsRz2mr3eBEVq0QLnUymDOz4BCJ+6MtHNZM74ryKw==",
+      "path": "ansuria.xfgloss/1.1.3",
+      "hashPath": "ansuria.xfgloss.1.1.3.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

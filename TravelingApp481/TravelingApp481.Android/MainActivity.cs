@@ -23,6 +23,7 @@ namespace TravelingApp481.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
+           
         }
     }
     public class AndroidInitializer : IPlatformInitializer
