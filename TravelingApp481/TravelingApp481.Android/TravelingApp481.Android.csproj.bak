@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>TravelingApp481.Droid</RootNamespace>
     <AssemblyName>TravelingApp481.Android</AssemblyName>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -28,9 +28,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
-    <AotAssemblies>false</AotAssemblies>
-    <EnableLLVM>false</EnableLLVM>
-    <BundleAssemblies>false</BundleAssemblies>
     <AndroidSupportedAbis />
     <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
   </PropertyGroup>
@@ -85,6 +82,10 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable\shop-7.png" />
+    <AndroidResource Include="Resources\drawable\airplane-symbol-7.png" />
+    <AndroidResource Include="Resources\drawable\earth_PNG40.png" />
+    <AndroidResource Include="Resources\drawable\earth_PNG37.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
@@ -98,7 +99,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TravelingApp481\TravelingApp481.csproj">
-      <Project>{FECA2498-8FC8-43A4-9E77-CE9E1809D06B}</Project>
+      <Project>{54B866B4-285A-4CAD-BDCB-41C3B3C4F4F6}</Project>
       <Name>TravelingApp481</Name>
     </ProjectReference>
   </ItemGroup>

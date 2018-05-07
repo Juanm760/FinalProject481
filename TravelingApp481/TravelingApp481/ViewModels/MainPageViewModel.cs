@@ -11,6 +11,8 @@ using TravelingApp481.Views;
 using System.Threading.Tasks;
 using System.Collections.Specialized;
 using System.ComponentModel;
+using TravelingApp481.Helpers;
+using TravelingApp481.Models;
 
 namespace TravelingApp481.ViewModels
 {
@@ -21,11 +23,11 @@ namespace TravelingApp481.ViewModels
         INavigationService _navigationService;
 
         //Note:  This is bound to the ItemsSource for the ListView on MainPage.
-       
+
 
         //Note:  Bound to both the ContentPage's AND the ListView's busy properties:  IsBusy is the
         //          property for the ContentPage, and IsRefreshing is the property for the ListView.
-       
+
 
         //Note:  This is bound to the currently selected person in the ListView.
         private string _search;
@@ -34,8 +36,15 @@ namespace TravelingApp481.ViewModels
             get { return _search; }
             set { SetProperty(ref _search, value); }
         }
-        
-        public MainPageViewModel(INavigationService navigationService) 
+
+        private City _citySearch;
+        public City CitySearch
+        {
+            get { return _citySearch; }
+            set { SetProperty(ref _citySearch, value); }
+        }
+
+        public MainPageViewModel(INavigationService navigationService)
         {
             SearchCommand = new DelegateCommand(OnSearch);
             _navigationService = navigationService;
@@ -44,7 +53,11 @@ namespace TravelingApp481.ViewModels
         private async void OnSearch()
         {
             Debug.WriteLine($"**** {this.GetType().Name}.{nameof(OnSearch)}");
-            await _navigationService.NavigateAsync("TravelAppContainerPage");
+            CitySearch = new City();
+            CitySearch.CityName = Search;
+            NavigationParameters navParam = new NavigationParameters();
+            navParam.Add(Helpers.NavParameterKeys.cityNameSt, CitySearch);
+            await _navigationService.NavigateAsync("TouristSpotsYelp", navParam);
         }
     }
 }

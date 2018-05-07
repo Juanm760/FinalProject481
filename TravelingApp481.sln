@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelingApp481.Android", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelingApp481.iOS", "TravelingApp481\TravelingApp481.iOS\TravelingApp481.iOS.csproj", "{11ADB47F-FEEA-42DC-9D23-97BB02CF02AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelingApp481", "TravelingApp481\TravelingApp481\TravelingApp481.csproj", "{54B866B4-285A-4CAD-BDCB-41C3B3C4F4F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravelingApp481", "TravelingApp481\TravelingApp481\TravelingApp481.csproj", "{54B866B4-285A-4CAD-BDCB-41C3B3C4F4F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,8 +71,8 @@ Global
 		{11ADB47F-FEEA-42DC-9D23-97BB02CF02AD}.AppStore|iPhone.Build.0 = AppStore|iPhone
 		{11ADB47F-FEEA-42DC-9D23-97BB02CF02AD}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
 		{11ADB47F-FEEA-42DC-9D23-97BB02CF02AD}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
-		{11ADB47F-FEEA-42DC-9D23-97BB02CF02AD}.Debug|Any CPU.ActiveCfg = Debug|iPhone
-		{11ADB47F-FEEA-42DC-9D23-97BB02CF02AD}.Debug|Any CPU.Build.0 = Debug|iPhone
+		{11ADB47F-FEEA-42DC-9D23-97BB02CF02AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11ADB47F-FEEA-42DC-9D23-97BB02CF02AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11ADB47F-FEEA-42DC-9D23-97BB02CF02AD}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{11ADB47F-FEEA-42DC-9D23-97BB02CF02AD}.Debug|iPhone.Build.0 = Debug|iPhone
 		{11ADB47F-FEEA-42DC-9D23-97BB02CF02AD}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator

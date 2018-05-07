@@ -24,7 +24,6 @@
                 <Label.FontFamily>
                     <OnPlatform x:TypeArguments="x:String">
                         <OnPlatform.iOS>Druk</OnPlatform.iOS>
-                        <OnPlatform.Android>Druk-Heavy-Web.ttf#Druk Heavy Web</OnPlatform.Android>
                     </OnPlatform>
                 </Label.FontFamily>
             </Label>
@@ -39,7 +38,7 @@
                 <Label.FontFamily>
                     <OnPlatform x:TypeArguments="x:String">
                         <OnPlatform.iOS>DINCondensed-Bold</OnPlatform.iOS>
-                        <OnPlatform.Android>DIN-Condensed-Bold.ttf#DIN Condensed Bold</OnPlatform.Android>
+                    
                     </OnPlatform>
                 </Label.FontFamily>
             </Label>

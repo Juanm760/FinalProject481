@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>TravelingApp481.Droid</RootNamespace>
     <AssemblyName>TravelingApp481.Android</AssemblyName>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -82,8 +82,8 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
-    <AndroidResource Include="Resources\drawable\shop-7.png" />
-    <AndroidResource Include="Resources\drawable\airplane-symbol-7.png" />
+    <AndroidResource Include="Resources\drawable\shop_7.png" />
+    <AndroidResource Include="Resources\drawable\airplane_symbol_7.png" />
     <AndroidResource Include="Resources\drawable\earth_PNG40.png" />
     <AndroidResource Include="Resources\drawable\earth_PNG37.png" />
   </ItemGroup>
