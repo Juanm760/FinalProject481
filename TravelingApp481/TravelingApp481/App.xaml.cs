@@ -27,7 +27,7 @@ namespace TravelingApp481
             Debug.WriteLine($"**** {this.GetType().Name}.{nameof(OnInitialized)}");
             InitializeComponent();
 
-            NavigationService.NavigateAsync(nameof(MainPage));
+            NavigationService.NavigateAsync(nameof(LoginPage));
         }
         protected override void RegisterTypes(Prism.Ioc.IContainerRegistry containerRegistry)
         {
@@ -35,8 +35,11 @@ namespace TravelingApp481
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<TouristSpotsYelp, TouristSpotsPageViewModel>();
-            containerRegistry.RegisterForNavigation<Page1, Page1ViewModel>();
             containerRegistry.RegisterForNavigation<TravelAppContainerPage, TravelAppCointerViewModel>();
+            containerRegistry.RegisterForNavigation<LoginPage, LoginPageViewModel>();
+            containerRegistry.RegisterForNavigation<RegisterPage, RegisterPageViewModel>();
+            containerRegistry.RegisterForNavigation<Favorites, FavoritesPageViewModel>();
+
 
 
         }
