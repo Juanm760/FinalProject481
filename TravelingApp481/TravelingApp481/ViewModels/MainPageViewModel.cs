@@ -13,6 +13,7 @@ using System.Collections.Specialized;
 using System.ComponentModel;
 using TravelingApp481.Helpers;
 using TravelingApp481.Models;
+using Prism.Services;
 
 namespace TravelingApp481.ViewModels
 {
@@ -20,7 +21,9 @@ namespace TravelingApp481.ViewModels
     {
 
         public DelegateCommand SearchCommand { get; set; }
+        public DelegateCommand ShowAlertCommand { get; set; }
         INavigationService _navigationService;
+        IPageDialogService _pageDialogService;
 
         //Note:  This is bound to the ItemsSource for the ListView on MainPage.
 
@@ -44,10 +47,18 @@ namespace TravelingApp481.ViewModels
             set { SetProperty(ref _citySearch, value); }
         }
 
-        public MainPageViewModel(INavigationService navigationService)
+        public MainPageViewModel(INavigationService navigationService, IPageDialogService pageDialogService)
         {
             SearchCommand = new DelegateCommand(OnSearch);
             _navigationService = navigationService;
+            _pageDialogService = pageDialogService;
+
+            ShowAlertCommand = new DelegateCommand(OnShowAlert);
+        }
+
+        private async void OnShowAlert()
+        {
+              await _pageDialogService.DisplayAlertAsync("Incorrect Format", "You have entered an incorrect format, try again", "Ok");
         }
 
         private async void OnSearch()
@@ -55,9 +66,19 @@ namespace TravelingApp481.ViewModels
             Debug.WriteLine($"**** {this.GetType().Name}.{nameof(OnSearch)}");
             CitySearch = new City();
             CitySearch.CityName = Search;
-            NavigationParameters navParam = new NavigationParameters();
-            navParam.Add(Helpers.NavParameterKeys.cityNameSt, CitySearch);
-            await _navigationService.NavigateAsync("TouristSpotsYelp", navParam);
+            if(Search.Contains(','))
+            {
+                CitySearch.CityName = Search;
+                NavigationParameters navParam = new NavigationParameters();
+                navParam.Add(Helpers.NavParameterKeys.cityNameSt, CitySearch);
+                await _navigationService.NavigateAsync("TravelAppContainerPage", navParam);
+            }
+            else
+            {
+                OnShowAlert();
+                return;
+            }
+            
         }
     }
 }

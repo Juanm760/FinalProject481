@@ -11,7 +11,8 @@
 namespace TravelingApp481 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\madri\\Desktop\\FinalProject481\\TravelingApp481\\TravelingApp481\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\madri\\Documents\\Mobile\\FinalProject481\\TravelingApp481\\TravelingApp481\\A" +
+        "pp.xaml")]
     public partial class App : global::Prism.Unity.PrismApplication {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

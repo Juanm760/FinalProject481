@@ -53,6 +53,7 @@
                     </OnPlatform>
                 </SearchBar.HeightRequest>
             </SearchBar>
+            
                 
         </StackLayout>
     </ContentPage.Content>

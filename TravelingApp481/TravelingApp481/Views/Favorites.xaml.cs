@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace TravelingApp481.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Page1 : ContentPage
+	public partial class Favorites : ContentPage
 	{
-		public Page1 ()
+		public Favorites ()
 		{
 			InitializeComponent ();
 		}

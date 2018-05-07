@@ -8,8 +8,8 @@
   <views:TouristSpotsYelp
     Title="Popular Destinations"
         Icon="airplane_symbol_7.png"/>
-    <views:Page1
-    Title="Page1"
+    <views:Favorites
+    Title="Favorites"
         Icon="shop_7.png"/>
     
 
