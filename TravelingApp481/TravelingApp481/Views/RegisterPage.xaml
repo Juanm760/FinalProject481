@@ -1,11 +1,20 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:TravelingApp481"
+     xmlns:xfg="clr-namespace:XFGloss;assembly=XFGloss"
     xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+
     ios:Page.UseSafeArea="true"
     x:Class="TravelingApp481.Views.RegisterPage">
+    <xfg:ContentPageGloss.BackgroundGradient>
+        <xfg:Gradient Rotation="180">
+            <xfg:GradientStep StepColor="#041c42" StepPercentage="0" />
+            <xfg:GradientStep StepColor="#7c8fad" StepPercentage=".5" />
+            <xfg:GradientStep StepColor="#041c42" StepPercentage="1" />
+        </xfg:Gradient>
+    </xfg:ContentPageGloss.BackgroundGradient>
     <ContentPage.Content>
         <StackLayout
             HorizontalOptions="CenterAndExpand"

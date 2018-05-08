@@ -731,30 +731,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\madri\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/denisemunoz/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\madri\\Desktop\\FinalProject481\\TravelingApp481\\TravelingApp481\\TravelingApp481.csproj",
+      "projectUniqueName": "/Users/denisemunoz/Desktop/finaalllll/TravelingApp481/TravelingApp481/TravelingApp481.csproj",
       "projectName": "TravelingApp481",
-      "projectPath": "C:\\Users\\madri\\Desktop\\FinalProject481\\TravelingApp481\\TravelingApp481\\TravelingApp481.csproj",
-      "packagesPath": "C:\\Users\\madri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\madri\\Desktop\\FinalProject481\\TravelingApp481\\TravelingApp481\\obj\\",
+      "projectPath": "/Users/denisemunoz/Desktop/finaalllll/TravelingApp481/TravelingApp481/TravelingApp481.csproj",
+      "packagesPath": "/Users/denisemunoz/.nuget/packages/",
+      "outputPath": "/Users/denisemunoz/Desktop/finaalllll/TravelingApp481/TravelingApp481/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\madri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/denisemunoz/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -771,35 +769,35 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
-          "Ansuria.XFGloss": {
-            "target": "Package",
-            "version": "[1.1.3, )"
-          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.1, )",
+            "version": "2.0.1",
             "autoReferenced": true
+          },
+          "Ansuria.XFGloss": {
+            "target": "Package",
+            "version": "1.1.3"
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "[11.0.2, )"
+            "version": "11.0.2"
           },
           "Prism.Unity.Forms": {
             "target": "Package",
-            "version": "[7.0.0.396, )"
+            "version": "7.0.0.396"
           },
           "Xam.Plugin.Connectivity": {
             "target": "Package",
-            "version": "[3.1.1, )"
+            "version": "3.1.1"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[2.5.0.280555, )"
+            "version": "2.5.0.280555"
           },
           "Yelp.Api": {
             "target": "Package",
-            "version": "[1.3.0, )"
+            "version": "1.3.0"
           }
         },
         "imports": [
